@@ -4,7 +4,7 @@ Gets enriched social data from full contact v3 api via twitter handles
 
 ## Usage
 - clone && `npm install`
-- mv .env-sample .env
+- cp .env-sample .env
 - Get API key from https://dashboard.fullcontact.com and add to .env
 - Get list of twitter handles (1 or many) into a single comma deliminatd string and put into index.js const `twitterHandlesToGrep`
 - run `node index.js`
