@@ -1,0 +1,25 @@
+{
+  "name": "fullcontact-enrich-bot",
+  "version": "1.0.0",
+  "description": "gets enriched social data from twitter handles using full contact api",
+  "repository": {
+    "type": "git",
+    "url": "git@github.com:chuckreynolds/fullcontact-enrich-bot.git"
+  },
+  "bugs": {
+    "url": "https://github.com/chuckreynolds/fullcontact-enrich-bot/issues"
+  },
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "engines": {
+    "node": ">=8.0.0"
+  },
+  "author": "chuck@vuurr.com",
+  "license": "MIT",
+  "dependencies": {
+    "axios": "^0.19.0",
+    "dotenv": "^8.1.0"
+  }
+}
