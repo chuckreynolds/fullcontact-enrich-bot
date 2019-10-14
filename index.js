@@ -8,9 +8,6 @@ const axios = require('axios') // https://www.npmjs.com/package/axios
 const fullcontactKey = process.env.FCKEY // get key from https://dashboard.fullcontact.com
 
 // USER: add comma sep twitter handles with or without the @ symbol
-// 411: in excel just get a single column of names on COL A, then do
-//      this equatin in another cell to get a list:  =TEXTJOIN(",",TRUE,A:A)
-//      Copy that single string in here.
 const twitterHandlesToGrep = '@chuckreynolds'
 
 // split up the names in that string to use each
@@ -52,4 +49,4 @@ twitterHandleArray.forEach(delayLoop(function (twitterHandle) {
             }
         })
 
-}, 1000)) // end forEach
+}, 1200)) // end forEach
