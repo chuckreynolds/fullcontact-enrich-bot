@@ -12,5 +12,5 @@ Gets enriched social data from full contact v3 api via twitter handles
 - run `node index.js`
 - copy console output. can copy pasta back into excel just import w/ comma deliminated format and you're good to go.
 
-### Support
+## Support
 hahahah. I built this quickly to scratch an itch. Feel free to make an issue or PR though.
