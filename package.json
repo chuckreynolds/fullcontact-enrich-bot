@@ -19,7 +19,7 @@
   "author": "chuck@vuurr.com",
   "license": "MIT",
   "dependencies": {
-    "axios": "^0.21.1",
+    "axios": "^0.21.2",
     "dotenv": "^8.1.0"
   }
 }
